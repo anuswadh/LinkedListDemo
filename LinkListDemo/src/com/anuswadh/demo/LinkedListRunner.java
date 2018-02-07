@@ -52,7 +52,7 @@ public class LinkedListRunner {
 	}//printList
 	
 	public Node removeTail(){
-		
+		/*
 		Node t = null, t1;
 		if (head != null) {
 			t = head;
@@ -65,7 +65,8 @@ public class LinkedListRunner {
 				}
 			} 
 			t.deleteNext();
-		}
+		}*/
+		head = null;
 		return head;
 	}//removeTail
 	
